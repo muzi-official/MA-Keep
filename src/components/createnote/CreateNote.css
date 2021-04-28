@@ -1,0 +1,89 @@
+.container {
+  padding: 20px;
+}
+
+.main {
+  height: 200px;
+  font-family: cursive;
+  margin-top: 50px;
+}
+
+.main input {
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bolder;
+  color: #000000 !important;
+  border: none !important;
+  width: 100%;
+}
+.main textarea {
+  margin-top: 10px;
+  color: #000000 !important;
+  inset: 5px 5px 3px 5px #ffffff;
+  -webkit-box-shadow: inset 5px 5px 3px 5px #ffffff;
+  box-shadow: inset 5px 5px 3px 5px #ffffff;
+  border: none !important;
+  width: 100%;
+}
+
+.main button {
+  margin-top: -20px;
+  color: white;
+  border-radius: 100%;
+  font-family: cursive;
+  background: brown;
+  padding: 18px;
+  font-size: 35px !important;
+  font-weight: bolder !important;
+  box-shadow: 5px 5px 25px -2px rgba(0, 0, 0, 0.836);
+}
+
+.main button:hover {
+  color: white;
+  background: brown;
+}
+
+.note {
+  text-align: right !important;
+  height: 180px;
+  display: flexbox;
+  margin: 20px;
+  margin-bottom: 40px;
+  font-family: cursive;
+  color: white;
+  margin-top: 60px;
+  border-radius: 10px;
+  background-color: brown;
+  padding: 20px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.note p,
+.note h1 {
+  text-align: center !important;
+}
+
+.note:hover {
+  transition: 0.5s;
+  height: 200px;
+  padding: 23px;
+}
+
+.note button {
+  margin-top: 10px;
+  background: white;
+  border-radius: 100%;
+  font-family: cursive;
+  color: brown;
+  padding: 18px;
+  font-size: 35px !important;
+  font-weight: bolder !important;
+  -webkit-box-shadow: -2px -1px 15px 7px rgba(240, 227, 227, 0.5);
+  -moz-box-shadow: -3px -2px 30px 14px rgba(228, 203, 203, 0.425);
+  box-shadow: -4px -3px 45px 21px rgba(190, 190, 190, 0.35);
+}
+
+.note button:hover {
+  background-color: brown;
+  color: #dfdddd;
+}

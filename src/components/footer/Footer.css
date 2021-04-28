@@ -1,0 +1,7 @@
+.footer {
+  z-index: 999999;
+  padding: 5px;
+  background-color: brown;
+  font-family: cursive;
+  color: antiquewhite;
+}

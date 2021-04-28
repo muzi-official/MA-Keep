@@ -1,0 +1,10 @@
+.header{
+    font-family: cursive;
+    background-color: brown !important;
+    color: aliceblue !important;
+    padding: 20px;
+}
+.header img{
+    width: 130px;
+    height: 90px;
+}
